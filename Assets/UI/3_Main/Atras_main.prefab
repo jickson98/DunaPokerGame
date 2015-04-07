@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 453192}
+  - 114: {fileID: 11453192}
+  m_Layer: 0
+  m_Name: Atras_main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11453192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 46a16f4c3dca2654cb70d8928044b180, type: 2}
+  mSprites:
+  - name: BACK2
+    x: 2501
+    y: 1259
+    width: 600
+    height: 338
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barback
+    x: 992
+    y: 149
+    width: 550
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barprog
+    x: 992
+    y: 101
+    width: 531
+    height: 47
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black
+    x: 938
+    y: 699
+    width: 50
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button3
+    x: 710
+    y: 337
+    width: 257
+    height: 185
+    borderLeft: 29
+    borderRight: 29
+    borderTop: 26
+    borderBottom: 28
+    paddingLeft: 33
+    paddingRight: 32
+    paddingTop: 16
+    paddingBottom: 15
+  - name: button4
+    x: 710
+    y: 896
+    width: 243
+    height: 242
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 22
+    paddingTop: 16
+    paddingBottom: 15
+  - name: button4_2
+    x: 3727
+    y: 1326
+    width: 310
+    height: 271
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 35
+    paddingTop: 1
+    paddingBottom: 16
+  - name: button5
+    x: 710
+    y: 523
+    width: 227
+    height: 226
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 34
+    paddingTop: 20
+    paddingBottom: 27
+  - name: buttonMain01
+    x: 0
+    y: 750
+    width: 709
+    height: 642
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 33
+    paddingBottom: 0
+  - name: buttonMain02
+    x: 0
+    y: 122
+    width: 709
+    height: 627
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 48
+    paddingBottom: 0
+  - name: buttonMain03
+    x: 992
+    y: 827
+    width: 695
+    height: 619
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 9
+    paddingTop: 36
+    paddingBottom: 20
+  - name: buttonMain04
+    x: 992
+    y: 207
+    width: 695
+    height: 619
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 9
+    paddingTop: 36
+    paddingBottom: 20
+  - name: chip
+    x: 1864
+    y: 1172
+    width: 93
+    height: 93
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 13
+    paddingTop: 16
+    paddingBottom: 14
+  - name: coin
+    x: 710
+    y: 6
+    width: 193
+    height: 148
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 25
+    paddingTop: 26
+    paddingBottom: 26
+  - name: icon1
+    x: 854
+    y: 779
+    width: 115
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 60
+    paddingRight: 63
+    paddingTop: 26
+    paddingBottom: 20
+  - name: icon2
+    x: 1869
+    y: 1333
+    width: 107
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 68
+    paddingRight: 63
+    paddingTop: 28
+    paddingBottom: 21
+  - name: icon3
+    x: 414
+    y: 3
+    width: 145
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 49
+    paddingRight: 44
+    paddingTop: 25
+    paddingBottom: 19
+  - name: jin
+    x: 892
+    y: 245
+    width: 97
+    height: 91
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 27
+    paddingRight: 26
+    paddingTop: 30
+    paddingBottom: 29
+  - name: line
+    x: 3120
+    y: 1159
+    width: 800
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 7
+  - name: main_back
+    x: 1986
+    y: 1598
+    width: 800
+    height: 450
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: medal1
+    x: 1688
+    y: 923
+    width: 176
+    height: 166
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 19
+    paddingTop: 26
+    paddingBottom: 24
+  - name: medal2
+    x: 710
+    y: 155
+    width: 181
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 17
+    paddingTop: 18
+    paddingBottom: 17
+  - name: medal3
+    x: 1688
+    y: 1090
+    width: 175
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 20
+    paddingTop: 21
+    paddingBottom: 20
+  - name: Numback
+    x: 1688
+    y: 853
+    width: 161
+    height: 69
+    borderLeft: 30
+    borderRight: 26
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 6
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 3
+  - name: Picture Panel
+    x: 710
+    y: 1139
+    width: 253
+    height: 253
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pictureside
+    x: 3575
+    y: 1663
+    width: 395
+    height: 385
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 43
+    paddingRight: 36
+    paddingTop: 50
+    paddingBottom: 39
+  - name: pop
+    x: 0
+    y: 1393
+    width: 991
+    height: 655
+    borderLeft: 59
+    borderRight: 30
+    borderTop: 26
+    borderBottom: 35
+    paddingLeft: 17
+    paddingRight: 16
+    paddingTop: 16
+    paddingBottom: 2
+  - name: pop_tab
+    x: 992
+    y: 15
+    width: 194
+    height: 85
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pop_tabback
+    x: 0
+    y: 20
+    width: 413
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 24
+    paddingTop: 22
+    paddingBottom: 21
+  - name: pop1
+    x: 992
+    y: 1447
+    width: 993
+    height: 601
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 15
+    paddingTop: 15
+    paddingBottom: 14
+  - name: popbutton01
+    x: 1986
+    y: 128
+    width: 512
+    height: 237
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 19
+    paddingBottom: 0
+  - name: popbutton02
+    x: 1986
+    y: 366
+    width: 512
+    height: 237
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 0
+    paddingTop: 19
+    paddingBottom: 0
+  - name: popendbutton
+    x: 710
+    y: 752
+    width: 143
+    height: 143
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 15
+    paddingTop: 16
+    paddingBottom: 15
+  - name: poptitl
+    x: 1986
+    y: 604
+    width: 464
+    height: 478
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 20
+    paddingTop: 13
+    paddingBottom: 11
+  - name: scrollback
+    x: 3120
+    y: 1183
+    width: 949
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 40
+    paddingTop: 21
+    paddingBottom: 16
+  - name: scrollbutton
+    x: 1688
+    y: 1266
+    width: 180
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 10
+    paddingTop: 12
+    paddingBottom: 10
+  - name: select
+    x: 1986
+    y: 1083
+    width: 514
+    height: 514
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 34
+    paddingTop: 36
+    paddingBottom: 34
+  - name: slide
+    x: 854
+    y: 774
+    width: 79
+    height: 4
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 13
+    paddingTop: 14
+    paddingBottom: 13
+  - name: speaker
+    x: 560
+    y: 12
+    width: 140
+    height: 109
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 22
+    paddingBottom: 19
+  - name: titletext
+    x: 2787
+    y: 1789
+    width: 787
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 43
+    paddingTop: 25
+    paddingBottom: 32
+  - name: toggle01
+    x: 1187
+    y: 43
+    width: 192
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 9
+  - name: toggle02
+    x: 1688
+    y: 769
+    width: 192
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 9
+  - name: tuto1
+    x: 2501
+    y: 648
+    width: 614
+    height: 305
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tuto2
+    x: 2501
+    y: 954
+    width: 618
+    height: 304
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tuto3
+    x: 3102
+    y: 1290
+    width: 624
+    height: 307
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: x
+    x: 892
+    y: 186
+    width: 68
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 9
+    paddingTop: 15
+    paddingBottom: 12
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 153192}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
